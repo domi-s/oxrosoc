@@ -1,38 +1,68 @@
-# create-svelte
+# University of Oxford Romanian Society Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This repository hosts the official website for the University of Oxford Romanian Society (OxRoSoc). The website is designed to provide information about the society, promote its events, and serve as a hub for the Romanian community at Oxford. It can also be used as a template for other student societies or organizations looking for a simple, customizable website solution.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Landing Page**: A welcoming section that introduces visitors to the society, its values, and its purpose.
+- **Events Page**: Displays upcoming events with descriptions, dates, and locations.
+- **Committee Page**: Lists the current committee members, their roles, and contact information.
+- **Contact Page**: Allows visitors to get in touch with the society through a form or contact details.
+- **Responsive Design**: Fully responsive, ensuring a great user experience on mobile, tablet, and desktop devices.
+- **Minimalist Design**: A clean, modern, and professional layout with a focus on usability and content.
+- **Lazy Loading**: Images are loaded efficiently to improve performance, especially on mobile.
+- (ToDo) **CMS Support**: Easy content management system (CMS) integration for adding, updating, and removing content without technical expertise.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Technologies Used
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **[SvelteKit](https://kit.svelte.dev/)**: Fast, modern JavaScript framework for building web apps.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for styling.
+- **TypeScript**: Strongly typed JavaScript, ensuring better code quality.
 
-## Developing
+## Installation
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To set up the project locally, follow these steps:
 
-```bash
-npm run dev
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/oxrosoc-website.git
+    ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+2. **Navigate to the project directory**:
+    ```bash
+    cd oxrosoc-website
+    ```
 
-## Building
+3. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-To create a production version of your app:
+4. **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-```bash
-npm run build
-```
+5. Visit `http://localhost:3000` to view the website in your browser.
 
-You can preview the production build with `npm run preview`.
+## Usage
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project was built in Svelte using SvelteKit, and hence pages and components can be edited using the `src/routes` routes and `src/lib/components` components.
+
+## Deployment
+
+For deployment, you can use platforms like:
+
+- **GitHub Pages**
+- **Vercel** (recommended for SvelteKit projects)
+- **Netlify**
+
+Refer to the documentation of your preferred platform for deployment instructions.
+
+## Contributions
+
+Contributions to improve the website are welcome! Please fork the repository, make your changes, and submit a pull request. If you encounter any issues, feel free to open an issue on GitHub.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
