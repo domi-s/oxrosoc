@@ -8,18 +8,27 @@
         const htmlMarkdown = document.querySelector('.htmlmarkdown');
         
         if (htmlMarkdown) {
-            const headings = htmlMarkdown.querySelectorAll('h1, h2, h3');
+            const elements = htmlMarkdown.querySelectorAll('*');
 
-            headings.forEach((heading) => {
-                switch (heading.tagName.toLowerCase()) {
+            elements.forEach((element) => {
+                switch (element.tagName.toLowerCase()) {
                     case 'h1':
-                        heading.classList.add('text-3xl', 'font-bold');
+                        element.classList.add('text-3xl', 'font-bold');
                         break;
                     case 'h2':
-                        heading.classList.add('text-2xl', 'font-bold');
+                        element.classList.add('text-2xl', 'font-bold');
                         break;
                     case 'h3':
-                        heading.classList.add('text-xl', 'font-bold');
+                        element.classList.add('text-xl', 'font-bold');
+                        break;
+                    case 'a':
+                        element.classList.add('text-blue-700', 'hover:underline');
+                        break;
+                    case 'ul':
+                        element.classList.add('list-disc', 'pl-8');
+                        break;
+                    case 'ol':
+                        element.classList.add('list-decimal', 'pl-8');
                         break;
                 }
             });
