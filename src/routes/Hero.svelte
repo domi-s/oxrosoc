@@ -4,7 +4,7 @@
     import oxrosocLogoPngWhiteTransparentOutline from "$lib/assets/oxrosoc-logo-png-white-transparent-outline.png";
 
     import romanianMotive from "$lib/assets/romanian-motive.png";
-    import romanianMotiveTransition from "$lib/assets/romanian-motive-transition.png";
+    import romanianMotiveTransition from "$lib/assets/romanian-motive-transition-xl.png";
 </script>
 
 <div class="text-white bg-red-700 bg-cover bg-center h-full min-h-[400px] p-4 sm:pt-20 sm:pb-8 flex items-center justify-center">
