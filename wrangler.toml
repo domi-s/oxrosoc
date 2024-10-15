@@ -1,0 +1,8 @@
+name = "oxrosoc"
+type = "javascript"  # or "webpack" or "rust" based on your project type
+
+# Specify the Node.js version
+node_version = "18.18.0"  # Set this to your required version
+
+[build]
+command = "npm run build"  # or your specific build command
