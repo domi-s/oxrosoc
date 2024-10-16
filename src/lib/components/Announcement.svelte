@@ -3,6 +3,7 @@
     import { writable } from "svelte/store";
 
     export let message = "This is a sample message";
+    export let link = "/";
 
     const generateHash = (/** @type {string} */ str) => {
         let hash = 0;
@@ -17,6 +18,8 @@
     let isVisible = writable(false);
 
     const close = () => {
+        event?.preventDefault();
+
         isVisible.set(false);
         localStorage.setItem(`announcement-${hash}`, "closed");
     };
@@ -31,7 +34,7 @@
 
 {#if $isVisible}
     <div class="fixed z-40 inset-x-0 bottom-0 p-4" id={hash}>
-        <div class="mx-auto max-w-screen-md relative flex items-center justify-between gap-4 rounded-lg bg-red-700 border-red-950 border-2 border-solid px-4 py-3 text-white">
+        <a href="{link}" class="mx-auto max-w-screen-md relative flex items-center justify-between gap-4 rounded-lg bg-red-700 border-red-950 border-2 border-solid px-4 py-3 text-white">
             <div class="flex flex-col">
                 <p class="text-xs font-base text-red-200">Announcement</p>
                 <p>{message}</p>
@@ -42,6 +45,6 @@
                     <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
                 </svg>
             </button>
-        </div>
+        </a>
     </div>
 {/if}
