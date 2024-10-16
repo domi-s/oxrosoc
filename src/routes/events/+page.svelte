@@ -3,6 +3,7 @@
 	import TermCardHeader from "./TermCardHeader.svelte";
 
     import mt2024_1 from "$lib/assets/termcards/mt2024/1.png";
+    import mt2024_1freshersdrinks_1 from "$lib/assets/termcards/mt2024/1-freshers-drinks/1.png";
 </script>
 
 <div class="p-4 sm:pt-20 mx-auto max-w-screen-xl">
@@ -11,8 +12,12 @@
         <Gallery images={[
             {
                 src: mt2024_1,
-                alt: "OxRoSoc Logo",
+                alt: "MT2024 Termcard Cover",
             },
+            {
+                src: mt2024_1freshersdrinks_1,
+                alt: "Freshers' Drinks",
+            }
         ]} />
     </div>
 </div>
