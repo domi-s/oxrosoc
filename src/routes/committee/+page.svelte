@@ -29,7 +29,7 @@
             image={comRoxi}
             instagram="roxirusumariaa"
             course="PPE"
-            college="St. Anne's"
+            college="Anne's"
         />
         <CommitteeCard
             name="Traian Rareș Tuș"
@@ -45,7 +45,7 @@
             image={comDomi}
             instagram="dominiccss"
             course="Computer Science"
-            college="St. Catherine's"
+            college="Catz"
         />
         <CommitteeCard
             name="Elena Ionescu"
@@ -53,7 +53,7 @@
             image={comElena}
             instagram="e13na.i"
             course="English"
-            college="St. Catherine's"
+            college="Catz"
         />
         <CommitteeCard
             name="Ștefan Domunco"
@@ -61,7 +61,7 @@
             image={comStefan}
             instagram="stefandomunco"
             course="Computer Science"
-            college="St. Catherine's"
+            college="Catz"
         />
     </div>
 </div>
