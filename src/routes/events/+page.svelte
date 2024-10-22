@@ -3,6 +3,8 @@
 	import TermCardHeader from "./TermCardHeader.svelte";
 
     import mt2024_1 from "$lib/assets/termcards/mt2024/1.png";
+    import mt2024_2 from "$lib/assets/termcards/mt2024/2.png";
+
     import mt2024_1freshersdrinks_1 from "$lib/assets/termcards/mt2024/1-freshers-drinks/1.png";
 </script>
 
@@ -12,7 +14,11 @@
         <Gallery images={[
             {
                 src: mt2024_1,
-                alt: "MT2024 Termcard Cover",
+                alt: "MT2024 Termcard, page 1",
+            },
+            {
+                src: mt2024_2,
+                alt: "MT2024 Termcard, page 2",
             },
             {
                 src: mt2024_1freshersdrinks_1,
