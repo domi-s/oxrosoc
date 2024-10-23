@@ -6,6 +6,7 @@
     import mt2024_2 from "$lib/assets/termcards/mt2024/2.png";
 
     import mt2024_1freshersdrinks_1 from "$lib/assets/termcards/mt2024/1-freshers-drinks/1.png";
+    import mt2024_2pubquiz_1 from "$lib/assets/termcards/mt2024/2-pub-quiz/1.png";
 </script>
 
 <div class="p-4 sm:pt-20 mx-auto max-w-screen-xl">
@@ -23,6 +24,10 @@
             {
                 src: mt2024_1freshersdrinks_1,
                 alt: "Freshers' Drinks",
+            },
+            {
+                src: mt2024_2pubquiz_1,
+                alt: "Pub Quiz",
             }
         ]} />
     </div>
