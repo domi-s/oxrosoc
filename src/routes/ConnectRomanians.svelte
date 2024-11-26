@@ -16,7 +16,8 @@
                 <h2 class="text-3xl font-bold sm:text-4xl">Connect with fellow Romanians!</h2>
 
                 <p class="mt-4 text-gray-600">
-                    Join us at the University of Oxford Romanian Society and meet other Romanians in the Oxford community. We host a wide range of events, from casual gatherings like movie nights and formal dinners to more lively activities such as pub crawls and trips across the UK.
+                    <!-- Join us at the University of Oxford Romanian Society and meet other Romanians in the Oxford community. We host a wide range of events, from casual gatherings like movie nights and formal dinners to more lively activities such as pub crawls and trips across the UK. -->
+                    Join us at Oxford Romanian Society (OxRoSoc) and meet other Romanians in the Oxford community. We host a wide range of events, from casual gatherings like movie nights and formal dinners to more lively activities such as pub crawls and trips across the UK.
                 </p>
 
                 <a href="https://www.instagram.com/oxrosoc" target="_blank" class="mt-8 inline-block rounded-lg bg-red-700 px-9 py-3 text-sm font-medium text-white hover:bg-red-900 focus:bg-red-900 border-2 border-solid border-red-900">

@@ -8,7 +8,8 @@
             <img src="{oxrosocLogoSMPngWhiteTransparentOutline}" alt="Logo" class="size-8">
             <div>
                 <h3 class="text-lg font-bold">OxRoSoc</h3>
-                <p class="text-xs -mt-1">University of Oxford Romanian Society</p>
+                <!-- <p class="text-xs -mt-1">University of Oxford Romanian Society</p> -->
+                <p class="text-xs -mt-1">Oxford Romanian Society</p>
             </div>
         </div>
 

@@ -4,10 +4,10 @@
     let content = `
         <p><strong>Effective Date:</strong> 14 October 2024</p>
 
-        <p>The University of Oxford Romanian Society ("the Society") is committed to protecting your personal data and respecting your privacy in compliance with the General Data Protection Regulation (GDPR). This document outlines how we collect, use, and store personal data, particularly in relation to membership, event organization, and form submissions. By becoming a member of the Society or participating in our events, you agree to the terms outlined in this document.</p>
+        <p>The Oxford Romanian Society ("the Society") is committed to protecting your personal data and respecting your privacy in compliance with the General Data Protection Regulation (GDPR). This document outlines how we collect, use, and store personal data, particularly in relation to membership, event organization, and form submissions. By becoming a member of the Society or participating in our events, you agree to the terms outlined in this document.</p>
 
         <h2>1. Data Controller</h2>
-        <p>The data controller responsible for the collection and use of your personal data is the University of Oxford Romanian Society, represented by the Society’s Committee.</p>
+        <p>The data controller responsible for the collection and use of your personal data is the Oxford Romanian Society, represented by the Society’s Committee.</p>
 
         <h2>2. Personal Data We Collect</h2>
         <p>The Society collects the following categories of personal data from its members and event participants:</p>
@@ -74,9 +74,9 @@
 
         <h2>10. Contact Information</h2>
         <p>If you have any questions or concerns regarding this privacy notice or your personal data, please contact:</p>
-        <p><strong>University of Oxford Romanian Society</strong><br />oxrosoc [at] gmail [dot] com<br />Other methods of contacting us can be found on our "Contact" page.</p>
+        <p><strong>Oxford Romanian Society</strong><br />oxrosoc [at] gmail [dot] com<br />Other methods of contacting us can be found on our "Contact" page.</p>
 
-        <p>By signing up for membership or attending events organized by the University of Oxford Romanian Society, you acknowledge that you have read and agree to this GDPR Agreement.</p>
+        <p>By signing up for membership or attending events organized by the Oxford Romanian Society, you acknowledge that you have read and agree to this GDPR Agreement.</p>
     `;
 </script>
 

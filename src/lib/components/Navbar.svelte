@@ -17,7 +17,8 @@
         <a href="/" class="flex items-center gap-4">
             <AppIcon size={24} />
             <div class="flex flex-col">
-                <h3 class="text-xs">University of Oxford</h3>
+                <!-- <h3 class="text-xs">University of Oxford</h3> -->
+                <h3 class="text-xs">Oxford</h3>
                 <h1 class="-mt-1 font-bold">Romanian Society</h1>
             </div>
         </a>
