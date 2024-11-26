@@ -11,7 +11,7 @@
 
 <div class="p-4 pb-16 sm:pt-20 mx-auto max-w-screen-xl">
     <div class="py-8 sm:py-16 flex flex-col items-center justify-center text-center">
-        <p class="text-lg font-bold text-gray-700">Meet your brand new</p>
+        <p class="text-lg font-bold text-gray-700">Meet this year's</p>
         <h1 class="text-4xl font-bold">OxRoSoc Committee</h1>
     </div>
     <div class="gallery-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-8">

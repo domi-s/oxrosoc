@@ -1,5 +1,10 @@
 <script>
     import oxrosocLogoSMPngWhiteTransparentOutline from "$lib/assets/oxrosoc-logo-sm-png-white-transparent-outline.png";
+
+    const startYear = 2024;
+    const currentYear = new Date().getFullYear();
+
+    const year = currentYear > startYear ? `${startYear} – ${currentYear}` : startYear;
 </script>
 
 <footer>
@@ -87,8 +92,9 @@
         </ul>
 
         <p class="mx-auto mt-6 max-w-lg text-center leading-relaxed text-gray-500">
-            &copy; Website by Dominic Satnoianu for OxRoSoc. All rights reserved.<br>
-            Contact me on <a class="underline" href="https://www.instagram.com/dominiccss" target="_blank">Instagram &mdash; @dominiccss</a> for blazing fast and beautiful websites.
+            &copy; {year} Website by Dominic Satnoianu (Current IT Officer for OxRoSoc).<br>
+            All rights reserved.<br>
+            Contact me on <a class="underline" href="https://www.instagram.com/dominiccss" target="_blank">Instagram &mdash; @dominiccss</a>.
         </p>
     </div>
 </footer>

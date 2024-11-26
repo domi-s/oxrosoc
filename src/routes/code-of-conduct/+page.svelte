@@ -4,7 +4,7 @@
     let content = `
     
 <ol type="1">
-	<li>The Romanian Society, OU ("the Club") does not tolerate any form of harassment or victimisation and expects all of its members, employees, and visitors to treat each other with respect, courtesy and consideration.</li>
+	<li>The Oxford Romanian Society ("the Club") does not tolerate any form of harassment or victimisation and expects all of its members, employees, and visitors to treat each other with respect, courtesy and consideration.</li>
 	<li>All members of the Club are expected to read and agree to act in accordance with this Code of Conduct and the University of Oxford's <a href="https://edu.admin.ox.ac.uk/university-policy-on-harassment" target="_blank">Policy and Procedure on Harassment</a>. Oxford students are also required to act in accordance with the Code of Conduct set out in <a href="https://governance.admin.ox.ac.uk/legislation/statute-xi-university-discipline-0" target="_blank">Statute XI</a>. Membership may be removed or suspended for failing to do so, and opportunities for members to take part in activities within and on behalf of the Club may be restricted.</li>
 	<li>All members of the Club are expected to:
 		<ul>
@@ -25,7 +25,7 @@
 		</ul>
 	</li>
 	<li>The Club should designate one or more member of their Committee as 'welfare officer(s)' who will act as a source of advice and support for Club members in relation to welfare issues and during harassment complaints.</li>
-	<li>The Club's designated welfare officer Elena Ionescu can be contacted for informal advice, including in relation to how you make a formal complaint, at elena.ionescu [at] stcatz [dot] ox [dot] ac [dot] uk. Support and advice is also available from the Clubs Office.</li>
+	<li>The Club's designated welfare officer <b>Elena Ionescu</b> can be contacted for informal advice, including in relation to how you make a formal complaint, at <b>elena.ionescu&#64;stcatz.ox.ac.uk</b>. Support and advice is also available from the Clubs Office.</li>
 	<li>The Club Complaints Procedure provides steps for dealing with internal complaints. Clubs are required to have this in place and to follow these steps when they receive a complaint.</li>
 	<li>University of Oxford students can also seek support from:
 		<ul>

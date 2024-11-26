@@ -3,7 +3,7 @@
 
     let content = `
 
-    <p>This document sets out the procedure for complaints ("Complaints") against a member or members of the Romanian Society, OU (the "Club") including for breach of the Club's Code of Conduct or the University of Oxford's Policy and Procedure on Harassment.</p>
+    <p>This document sets out the procedure for complaints ("Complaints") against a member or members of the Oxford Romanian Society (the "Club") including for breach of the Club's Code of Conduct or the University of Oxford's Policy and Procedure on Harassment.</p>
 
 <h2>1. Applicability of the procedure</h2>
 <p>This procedure applies where a person believes that a Club member or members have failed to act in accordance with the Club's Code of Conduct, the University of Oxford's Policy and Procedure on Harassment, or have acted in breach of their obligations under the Club Constitution, during or in connection with Club activities.</p>
