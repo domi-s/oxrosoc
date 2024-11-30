@@ -53,12 +53,12 @@
             },
         ]} />
     </div>
-    <div class="py-8">
+    <!-- <div class="py-8">
         <SectionHeader title="Moments from 2024 – 2025" subtitle="Gallery" />
         <Gallery images={
             Object.keys(photos_24_25)
                 .map((photo) => photo.replace("/src/assets/photos/24-25/", ""))
                 .map((src) => ({ src, alt: "Photo" }))
         } />
-    </div>
+    </div> -->
 </div>
