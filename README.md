@@ -25,12 +25,12 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/oxrosoc-website.git
+    git clone https://github.com/domi-s/oxrosoc.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd oxrosoc-website
+    cd oxrosoc
     ```
 
 3. **Install dependencies**:
@@ -43,7 +43,7 @@ To set up the project locally, follow these steps:
     npm run dev
     ```
 
-5. Visit `http://localhost:3000` to view the website in your browser.
+5. Visit `http://localhost:5173` to view the website in your browser.
 
 ## Usage
 
@@ -53,8 +53,9 @@ This project was built in Svelte using SvelteKit, and hence pages and components
 
 For deployment, you can use platforms like:
 
+- **Cloudflare Pages** (OxRoSoc's current deployment platform)
 - **GitHub Pages**
-- **Vercel** (recommended for SvelteKit projects)
+- **Vercel**
 - **Netlify**
 
 Refer to the documentation of your preferred platform for deployment instructions.
@@ -65,4 +66,4 @@ Contributions to improve the website are welcome! Please fork the repository, ma
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
