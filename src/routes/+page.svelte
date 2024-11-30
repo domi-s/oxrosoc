@@ -8,7 +8,7 @@
     import LandingPoints from "./LandingPoints.svelte";
 </script>
 
-<Announcement message="🥳 Our Michaelmas 2024 termcard has been released!" link="/events" />
+<Announcement message="👋 Want to join us? Connect with Romanians on the group chat!" link="https://chat.whatsapp.com/KaolhxnGxobL0Z72T9xZvh" />
 <Hero />
 <WhatWeDo />
 <Divider />

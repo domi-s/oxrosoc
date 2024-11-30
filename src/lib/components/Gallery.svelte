@@ -25,17 +25,20 @@
 <!-- Grid Layout for Gallery -->
 <div class="gallery-grid pt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
     {#each images as image}
-        <div class="gallery-item cursor-pointer" on:click={() => openLightbox(image)}>
-            <img src={image.src} alt={image.alt} class="w-full h-auto object-cover rounded-lg" />
-        </div>
+        <button class="gallery-item cursor-pointer" on:click={() => openLightbox(image)}>
+            <img src={image.src} alt={image.alt} class="w-full h-auto aspect-square object-cover rounded-lg" />
+        </button>
     {/each}
 </div>
 
 <!-- Lightbox Modal -->
 {#if selectedImage}
-    <div class="lightbox fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4" on:click={closeLightbox}>
-        <div class="relative">
-            <img src={selectedImage.src} alt={selectedImage.alt} class="max-w-screen-sm w-full h-full aspect-square object-contain rounded-lg" />
+    <button class="lightbox fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4" on:click={closeLightbox}>
+        <div class="relative max-w-screen-sm w-full aspect-square rounded-lg overflow-hidden">
+            <div class="relative w-full h-full">
+                <img src={selectedImage.src} alt="Background" class="absolute w-full h-full object-cover brightness-50 blur-sm" />
+                <img src={selectedImage.src} alt={selectedImage.alt} class="absolute w-full h-full object-contain" />
+            </div>
             <button 
                 class="absolute top-0 right-2 text-white text-2xl hover:text-gray-300" 
                 aria-label="Close"
@@ -44,7 +47,7 @@
                 &times;
             </button>
         </div>
-    </div>
+    </button>
 {/if}
 
 <style>
