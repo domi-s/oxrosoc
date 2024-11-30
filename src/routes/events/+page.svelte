@@ -2,14 +2,15 @@
     import Gallery from "$lib/components/Gallery.svelte";
 	import TermCardHeader from "./TermCardHeader.svelte";
 
-    import mt2024_1 from "$lib/assets/termcards/mt2024/1.png";
-    import mt2024_2 from "$lib/assets/termcards/mt2024/2.png";
+    import mt2024_1 from "$lib/assets/termcards/mt2024/1-new.png";
+    import mt2024_2 from "$lib/assets/termcards/mt2024/2-new.png";
 
     import mt2024_1freshersdrinks_1 from "$lib/assets/termcards/mt2024/1-freshers-drinks/1.png";
     import mt2024_2pubquiz_1 from "$lib/assets/termcards/mt2024/2-pub-quiz/1.png";
     import mt2024_3barcrawl_1 from "$lib/assets/termcards/mt2024/3-bar-crawl/1.png";
     import mt2024_4social_1 from "$lib/assets/termcards/mt2024/4-social/1.png";
     import mt2024_5votedinner_1 from "$lib/assets/termcards/mt2024/5-vote-dinner/1.png";
+    import mto2024_6romaniaday_1 from "$lib/assets/termcards/mt2024/6-romania-day/1.png";
 </script>
 
 <div class="p-4 sm:pt-20 mx-auto max-w-screen-xl">
@@ -43,6 +44,10 @@
             {
                 src: mt2024_5votedinner_1,
                 alt: "Vote and Dinner",
+            },
+            {
+                src: mto2024_6romaniaday_1,
+                alt: "Romania National Day",
             },
         ]} />
     </div>
