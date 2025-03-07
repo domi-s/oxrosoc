@@ -12,12 +12,38 @@
     import mt2024_5votedinner_1 from "$lib/assets/termcards/mt2024/5-vote-dinner/1.png";
     import mto2024_6romaniaday_1 from "$lib/assets/termcards/mt2024/6-romania-day/1.png";
 
+    import ht2025_1 from "$lib/assets/termcards/ht2025/1.png";
+    import ht2025_2 from "$lib/assets/termcards/ht2025/2.png";
+    import ht2025_3 from "$lib/assets/termcards/ht2025/3.png";
+    import ht2025_4 from "$lib/assets/termcards/ht2025/4.png";
+
     const photos_24_25 = import.meta.glob("$lib/assets/photos/24-25/*");
 </script>
 
 <div class="p-4 sm:pt-20 mx-auto max-w-screen-xl">
     <div class="py-8">
-        <SectionHeader title="Michaelmas 2024" subtitle="Termcard" isNew={true} />
+        <SectionHeader title="Hilary 2025" subtitle="Termcard" isNew={true} />
+        <Gallery images={[
+            {
+                src: ht2025_1,
+                alt: "HT2025 Termcard, page 1",
+            },
+            {
+                src: ht2025_2,
+                alt: "OxRoSoc Movie Night",
+            },
+            {
+                src: ht2025_3,
+                alt: "Mărțișor Workshop and Celebration",
+            },
+            {
+                src: ht2025_4,
+                alt: "Cambridge Romanian Society Joint Weekend",
+            }
+        ]} />
+    </div>
+    <div class="py-8">
+        <SectionHeader title="Michaelmas 2024" subtitle="Termcard" />
         <Gallery images={[
             {
                 src: mt2024_1,

@@ -18,7 +18,7 @@
             <AppIcon size={24} />
             <div class="flex flex-col">
                 <!-- <h3 class="text-xs">University of Oxford</h3> -->
-                <h3 class="text-xs">Oxford</h3>
+                <h3 class="text-xs">OxRoSoc, Oxford's</h3>
                 <h1 class="-mt-1 font-bold">Romanian Society</h1>
             </div>
         </a>
@@ -89,6 +89,6 @@
     }
 
     .page-nav .nav-link-dropdown .nav-link-dropdown-options {
-        @apply absolute flex flex-col gap-4 bg-red-800 shadow-lg p-4 w-max rounded-md border-2 border-solid border-red-950 mt-2;
+        @apply absolute flex flex-col gap-4 bg-red-700 shadow-lg p-4 w-max rounded-md border-2 border-solid border-red-800 mt-2;
     }
 </style>

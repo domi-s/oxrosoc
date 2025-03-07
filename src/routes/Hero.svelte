@@ -15,7 +15,7 @@
             </div>
             <div class="flex flex-col justify-center text-center sm:text-left">
                 <!-- <h3 class="text-lg">University of Oxford</h3> -->
-                <h3 class="text-2xl">Oxford</h3>
+                <h3 class="text-2xl">Oxford University</h3>
                 <h1 class="text-4xl font-black">Romanian Society</h1>
             </div>
         </div>
