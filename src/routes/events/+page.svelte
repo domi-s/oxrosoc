@@ -44,7 +44,7 @@
     const photos_24_25 = import.meta.glob("$lib/assets/photos/24-25/*");
 </script>
 
-<div class="p-4 sm:pt-20 mx-auto max-w-screen-xl">
+<div class="p-4 pt-16 mx-auto max-w-screen-xl">
     <div class="py-8">
         <SectionHeader title="Hilary Term 2026" subtitle="Termcard" isNew={true} />
         <Gallery images={[

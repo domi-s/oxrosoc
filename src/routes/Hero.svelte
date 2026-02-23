@@ -7,16 +7,16 @@
     import romanianMotiveTransition from "$lib/assets/romanian-motive-transition-xl.png";
 </script>
 
-<div class="text-white bg-red-700 bg-cover bg-center h-full min-h-[400px] p-4 sm:pt-20 sm:pb-8 flex items-center justify-center">
+<div class="text-white bg-red-700 bg-cover bg-center h-full min-h-[400px] p-4 pt-16 sm:pt-20 sm:pb-8 flex items-center justify-center">
     <div class="flex flex-col items-center justify-center w-full">
         <div class="flex items-center justify-between gap-8 flex-col sm:flex-row-reverse sm:gap-16 w-full max-w-screen-md">
             <div class="flex items-center">
                 <img src={oxrosocLogoPngWhiteTransparentOutline} alt="Oxford Romanian Society" class="w-48 h-48 ml-auto" />
             </div>
-            <div class="flex flex-col justify-center text-center sm:text-left">
+            <div class="flex flex-col justify-center text-center sm:text-left leading-tight">
                 <!-- <h3 class="text-lg">University of Oxford</h3> -->
-                <h3 class="text-2xl">Oxford University</h3>
-                <h1 class="text-4xl font-black">Romanian Society</h1>
+                <h3 class="text-xl sm:text-2xl">Oxford University</h3>
+                <h1 class="text-2xl sm:text-4xl font-black">Romanian Society</h1>
             </div>
         </div>
     </div>
