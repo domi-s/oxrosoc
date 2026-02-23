@@ -15,7 +15,7 @@
     import DividerText from "$lib/components/DividerText.svelte";
 </script>
 
-<div class="p-4 pb-16 sm:pt-20 mx-auto max-w-screen-xl">
+<div class="p-4 pb-16 pt-16 mx-auto max-w-screen-xl">
     <div class="py-8 sm:py-16 flex flex-col items-center justify-center text-center">
         <p class="text-lg font-bold text-gray-700">Meet this year's</p>
         <h1 class="text-4xl font-bold">OxRoSoc Committee</h1>

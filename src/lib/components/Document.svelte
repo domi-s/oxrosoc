@@ -36,7 +36,7 @@
     });
 </script>
 
-<div class="p-4 sm:pt-20 mx-auto max-w-screen-xl">
+<div class="p-4 pt-36 pb-48 mx-auto max-w-screen-xl">
     <div class="flex flex-col">
         <p class="text-lg font-bold text-gray-700">Document</p>
         <h1 class="text-4xl font-bold">{title}</h1>

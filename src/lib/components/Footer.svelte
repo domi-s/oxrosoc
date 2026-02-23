@@ -8,7 +8,7 @@
 </script>
 
 <footer>
-    <div class="mx-auto max-w-5xl px-4 py-16 mb-16 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div class="flex gap-2 items-center justify-center bg-gray-200 border-gray-300 border-solid border-2 w-fit mx-auto py-3 px-4 rounded-xl">
             <img src="{oxrosocLogoSMPngWhiteTransparentOutline}" alt="Logo" class="size-8">
             <div>
