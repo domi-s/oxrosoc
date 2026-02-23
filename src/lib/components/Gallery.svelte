@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { browser } from "$app/environment";
+
     type Image = {
         src: string;
         alt: string;
@@ -8,19 +10,35 @@
 
     let selectedImage: Image | null = null;
 
-    function openLightbox(image: Image) {
+    const openLightbox = (image: Image) => {
         selectedImage = image;
-    }
+    };
 
-    function closeLightbox() {
+    const closeLightbox = () => {
         selectedImage = null;
+    };
+
+    const handleLazyLoad = () => {
+        const lazyImages = document.querySelectorAll('img[data-src]') as NodeListOf<HTMLImageElement>;
+
+        lazyImages.forEach(img => {
+            if(img.getBoundingClientRect().top < window.innerHeight + 100) {
+                img.src = img.dataset.src!;
+                img.removeAttribute('data-src');
+            }
+        });
+    };
+
+    if(browser) {
+        window.addEventListener('scroll', handleLazyLoad);
+        setTimeout(() => { handleLazyLoad(); });
     }
 </script>
 
 <div class="gallery-grid pt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
     {#each images as image}
         <button class="gallery-item cursor-pointer" on:click={() => openLightbox(image)}>
-            <img src={image.src} alt={image.alt} class="w-full h-auto aspect-[4/5] object-cover rounded-lg" />
+            <img data-src={image.src} alt={image.alt} class="w-full h-auto aspect-[4/5] object-cover rounded-lg" />
         </button>
     {/each}
 </div>
