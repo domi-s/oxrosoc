@@ -1,7 +1,7 @@
 <script>
     import comStefania from "$lib/assets/committee/2025-2026/stefania.webp";
     import comDamian from "$lib/assets/committee/2025-2026/damian.jpg";
-    import comTeodora from "$lib/assets/committee/2025-2026/teodora.jpg";
+    import comTeodora from "$lib/assets/committee/2025-2026/teodora.png";
 
     import comMaria from "$lib/assets/committee/2024-2025/maria.jpg";
     import comRoxi from "$lib/assets/committee/2024-2025/roxi.webp";
