@@ -46,7 +46,11 @@
 
 <div class="p-4 pt-16 mx-auto max-w-screen-xl">
     <div class="py-8">
-        <SectionHeader title="Hilary Term 2026" subtitle="Termcard" isNew={true} />
+        <SectionHeader title="Trinity Term 2026" subtitle="Termcard" isNew={true} />
+        <Gallery images={[]} />
+    </div>
+    <div class="py-8">
+        <SectionHeader title="Hilary Term 2026" subtitle="Termcard" />
         <Gallery images={[
             {
                 src: ht2026_1,
