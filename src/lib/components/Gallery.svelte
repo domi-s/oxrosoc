@@ -1,4 +1,6 @@
 <script lang="ts">
+    import emptyImage from "$lib/assets/empty.png";
+
 	import { browser } from "$app/environment";
 
     type Image = {
@@ -41,7 +43,7 @@
             hover:border-gray-200 hover:z-10 hover:scale-110
             focus:border-gray-200 focus:z-10 focus:scale-110
         " on:click={() => openLightbox(image)}>
-            <img data-src={image.src} alt={image.alt} class="w-full h-auto aspect-[4/5] object-cover rounded-lg" />
+            <img src="{emptyImage}" data-src={image.src} alt={image.alt} class="w-full h-auto aspect-[4/5] object-cover rounded-lg" />
             <div class="absolute hidden group-hover:block group-focus:block w-full max-w-full">
                 <div class="p-2 pr-4 w-full">
                     <p class="text-xs text-left text-gray-500">Photo &bull; Click to enlarge</p>
