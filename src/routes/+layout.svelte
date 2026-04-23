@@ -12,6 +12,8 @@
 {:else}
     <Navbar />
 {/if}
-<slot />
+<main>
+    <slot />
+</main>
 <Divider />
 <Footer />

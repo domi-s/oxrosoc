@@ -45,6 +45,7 @@
 
             <button 
                 class="w-8 h-8 hover:bg-red-800 focus:bg-red-800 rounded-md flex items-center justify-center md:hidden" 
+                aria-label="Toggle menu"
                 on:click={toggleMenu}
             >
                 {#if isMenuOpen}

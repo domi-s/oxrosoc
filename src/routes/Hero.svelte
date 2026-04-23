@@ -14,9 +14,10 @@
                 <img src={oxrosocLogoPngWhiteTransparentOutline} alt="Oxford Romanian Society" class="w-48 h-48 ml-auto" />
             </div>
             <div class="flex flex-col justify-center text-center sm:text-left leading-tight">
-                <!-- <h3 class="text-lg">University of Oxford</h3> -->
-                <h3 class="text-xl sm:text-2xl">Oxford University</h3>
-                <h1 class="text-2xl sm:text-4xl font-black">Romanian Society</h1>
+                <h1>
+                    <span class="text-xl sm:text-2xl block">Oxford University</span>
+                    <span class="text-2xl sm:text-4xl font-black">Romanian Society</span>
+                </h1>
             </div>
         </div>
     </div>
