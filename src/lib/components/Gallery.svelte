@@ -1,7 +1,6 @@
 <script lang="ts">
     import emptyImage from "$lib/assets/empty.png";
-
-	import { browser } from "$app/environment";
+	import "$lib/utils/lazy-loading";
 
     type Image = {
         src: string;
@@ -19,22 +18,6 @@
     const closeLightbox = () => {
         selectedImage = null;
     };
-
-    const handleLazyLoad = () => {
-        const lazyImages = document.querySelectorAll('img[data-src]') as NodeListOf<HTMLImageElement>;
-
-        lazyImages.forEach(img => {
-            if(img.getBoundingClientRect().top < window.innerHeight + 100) {
-                img.src = img.dataset.src!;
-                img.removeAttribute('data-src');
-            }
-        });
-    };
-
-    if(browser) {
-        window.addEventListener('scroll', handleLazyLoad);
-        setTimeout(() => { handleLazyLoad(); });
-    }
 </script>
 
 <div class="gallery-grid pt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

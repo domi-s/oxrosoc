@@ -1,4 +1,6 @@
 <script>
+    import "$lib/utils/lazy-loading";
+
     import Divider from "$lib/components/Divider.svelte";
     import Announcement from "$lib/components/Announcement.svelte";
 
