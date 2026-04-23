@@ -13,5 +13,7 @@ const handleLazyLoad = () => {
 
 if(browser) {
     window.addEventListener('scroll', handleLazyLoad);
-    setTimeout(() => { handleLazyLoad(); });
+    document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => { handleLazyLoad(); }, 100);
+    });
 }
