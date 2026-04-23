@@ -40,6 +40,12 @@
     import ht2026_4 from "$lib/assets/termcards/ht2026/4.jpg";
     import ht2026_5 from "$lib/assets/termcards/ht2026/5.jpg";
     import ht2026_6 from "$lib/assets/termcards/ht2026/6.jpg";
+    import ht2026_7 from "$lib/assets/termcards/ht2026/7.jpg";
+    import ht2026_8 from "$lib/assets/termcards/ht2026/8.jpg";
+    import ht2026_9 from "$lib/assets/termcards/ht2026/9.webp";
+    import ht2026_10 from "$lib/assets/termcards/ht2026/10.jpg";
+
+    import tt2026_1 from "$lib/assets/termcards/tt2026/1.jpg";
 
     const photos_24_25 = import.meta.glob("$lib/assets/photos/24-25/*");
 </script>
@@ -47,7 +53,12 @@
 <div class="p-4 pt-16 mx-auto max-w-screen-xl">
     <div class="py-8">
         <SectionHeader title="Trinity Term 2026" subtitle="Termcard" isNew={true} />
-        <Gallery images={[]} />
+        <Gallery images={[
+            {
+                src: tt2026_1,
+                alt: "Welcome Back Drinks",
+            },
+        ]} />
     </div>
     <div class="py-8">
         <SectionHeader title="Hilary Term 2026" subtitle="Termcard" />
@@ -62,7 +73,7 @@
             },
             {
                 src: ht2026_3,
-                alt: "Welcome back drinks",
+                alt: "Welcome Back Drinks",
             },
             {
                 src: ht2026_4,
@@ -75,6 +86,22 @@
             {
                 src: ht2026_6,
                 alt: "Dragobete Celebration",
+            },
+            {
+                src: ht2026_7,
+                alt: "Eastern European Night with PolSoc, HunSoc, Czech/SlovakSoc, and UkranianSoc",
+            },
+            {
+                src: ht2026_8,
+                alt: "Mărțișor/Martenitsa Arts and Crafts Workshop with BgSoc",
+            },
+            {
+                src: ht2026_9,
+                alt: "Mărțișor/Baba Marta Celebration with Imperial, Kings, Bristol, and Cambridge",
+            },
+            {
+                src: ht2026_10,
+                alt: "Farewell Drinks",
             }
         ]} />
     </div>
