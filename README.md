@@ -2,6 +2,8 @@
 
 This repository hosts the official website for the Oxford Romanian Society (OxRoSoc). The website is designed to provide information about the society, promote its events, and serve as a hub for the Romanian community at Oxford. It can also be used as a template for other student societies or organizations looking for a simple, customizable website solution.
 
+The website is GDPR Compliant according to Cookiebot, using self-hosted resources (fonts, images, etc.) without collecting personal information about visitors.
+
 ## Features
 
 - **Landing Page**: A welcoming section that introduces visitors to the society, its values, and its purpose.
