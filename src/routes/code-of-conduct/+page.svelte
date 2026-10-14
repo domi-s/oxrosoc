@@ -1,7 +1,7 @@
 <script>
-    import Document from "$lib/components/Document.svelte";
+	import Document from '#lib/components/Document.svelte';
 
-    let content = `
+	let content = `
     
 <ol type="1">
 	<li>The Oxford Romanian Society ("the Club") does not tolerate any form of harassment or victimisation and expects all of its members, employees, and visitors to treat each other with respect, courtesy and consideration.</li>
@@ -47,7 +47,4 @@
     `;
 </script>
 
-<Document
-    title="Code of Conduct"
-    content={content}
-/>
+<Document title="Code of Conduct" {content} />

@@ -1,7 +1,7 @@
 <script>
-    import Document from "$lib/components/Document.svelte";
+	import Document from '#lib/components/Document.svelte';
 
-    let content = `
+	let content = `
         <p><strong>Effective Date:</strong> 14 October 2024</p>
 
         <p>The Oxford Romanian Society ("the Society") is committed to protecting your personal data and respecting your privacy in compliance with the General Data Protection Regulation (GDPR). This document outlines how we collect, use, and store personal data, particularly in relation to membership, event organization, and form submissions. By becoming a member of the Society or participating in our events, you agree to the terms outlined in this document.</p>
@@ -80,7 +80,4 @@
     `;
 </script>
 
-<Document
-    title="GDPR Agreement"
-    content={content}
-/>
+<Document title="GDPR Agreement" {content} />

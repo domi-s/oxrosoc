@@ -1,19 +1,21 @@
-import { browser } from "$app/environment";
+import { browser } from '$app/env';
 
 const handleLazyLoad = () => {
-    const lazyImages = document.querySelectorAll('img[data-src]') as NodeListOf<HTMLImageElement>;
+	const lazyImages = document.querySelectorAll('img[data-src]') as NodeListOf<HTMLImageElement>;
 
-    lazyImages.forEach(img => {
-        if(img.getBoundingClientRect().top < window.innerHeight + 100) {
-            img.src = img.dataset.src!;
-            img.removeAttribute('data-src');
-        }
-    });
+	lazyImages.forEach((img) => {
+		if (img.getBoundingClientRect().top < window.innerHeight + 100) {
+			img.src = img.dataset.src!;
+			img.removeAttribute('data-src');
+		}
+	});
 };
 
-if(browser) {
-    window.addEventListener('scroll', handleLazyLoad);
-    document.addEventListener("DOMContentLoaded", () => {
-        setTimeout(() => { handleLazyLoad(); }, 100);
-    });
+if (browser) {
+	window.addEventListener('scroll', handleLazyLoad);
+	document.addEventListener('DOMContentLoaded', () => {
+		setTimeout(() => {
+			handleLazyLoad();
+		}, 100);
+	});
 }

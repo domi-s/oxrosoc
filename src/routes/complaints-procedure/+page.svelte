@@ -1,7 +1,7 @@
 <script>
-    import Document from "$lib/components/Document.svelte";
+	import Document from '#lib/components/Document.svelte';
 
-    let content = `
+	let content = `
 
     <p>This document sets out the procedure for complaints ("Complaints") against a member or members of the Oxford Romanian Society (the "Club") including for breach of the Club's Code of Conduct or the University of Oxford's Policy and Procedure on Harassment.</p>
 
@@ -126,7 +126,4 @@
     `;
 </script>
 
-<Document
-    title="Complaints Procedure"
-    content={content}
-/>
+<Document title="Complaints Procedure" {content} />
