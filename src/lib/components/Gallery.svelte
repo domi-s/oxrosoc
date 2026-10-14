@@ -69,7 +69,7 @@
 				/>
 			</div>
 			<button
-				class="absolute top-1 right-1 text-white text-2xl hover:bg-black/50 focus:bg-black/50 w-6 h-6 flex items-center justify-center rounded-md"
+				class="absolute top-1 right-1 text-white text-2xl hover:bg-black/50 focus:bg-black/50 w-6 h-6 flex items-center justify-center rounded-md cursor-pointer"
 				aria-label="Close"
 				on:click={closeLightbox}
 			>
