@@ -1,5 +1,5 @@
 <script>
-	import oxrosocLogoPngWhiteTransparentOutline from '#lib/assets/oxrosoc-logo-png-white-transparent-outline.png';
+	import oxrosocLogoPngWhiteTransparentOutline256 from '#lib/assets/oxrosoc-logo-png-white-transparent-outline-256.png';
 
 	import romanianMotiveTransition from '#lib/assets/romanian-motive-transition-xl.png';
 </script>
@@ -13,7 +13,7 @@
 		>
 			<div class="flex items-center">
 				<img
-					src={oxrosocLogoPngWhiteTransparentOutline}
+					src={oxrosocLogoPngWhiteTransparentOutline256}
 					alt="Oxford Romanian Society"
 					class="w-48 h-48 ml-auto"
 				/>
