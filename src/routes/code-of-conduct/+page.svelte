@@ -25,7 +25,7 @@
 		</ul>
 	</li>
 	<li>The Club should designate one or more member of their Committee as 'welfare officer(s)' who will act as a source of advice and support for Club members in relation to welfare issues and during harassment complaints.</li>
-	<li>The Club's designated welfare officer <b>Elena Ionescu</b> can be contacted for informal advice, including in relation to how you make a formal complaint, at <b>elena.ionescu&#64;stcatz.ox.ac.uk</b>. Support and advice is also available from the Clubs Office.</li>
+	<li>The Club's designated welfare officer <b>Teodora Marinescu</b> can be contacted for informal advice, including in relation to how you make a formal complaint, at <b>teodora.marinescu&#64;lincoln.ox.ac.uk</b>. Support and advice is also available from the Clubs Office.</li>
 	<li>The Club Complaints Procedure provides steps for dealing with internal complaints. Clubs are required to have this in place and to follow these steps when they receive a complaint.</li>
 	<li>University of Oxford students can also seek support from:
 		<ul>
