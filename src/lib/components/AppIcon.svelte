@@ -1,8 +1,9 @@
 <script>
-    import oxrosocLogoXSPngWhiteTransparentOutline from "$lib/assets/oxrosoc-logo-xs-png-white-transparent-outline.png";
+	import oxrosocLogoXSPngWhiteTransparentOutline from '#lib/assets/oxrosoc-logo-xs-png-white-transparent-outline.png';
 
-    export let size = 24;
+	export let size = 24;
 </script>
+
 <img src={oxrosocLogoXSPngWhiteTransparentOutline} alt="OxROSoc Logo" style="height: {size}px;" />
 <!-- <svg
     xmlns="http://www.w3.org/2000/svg"

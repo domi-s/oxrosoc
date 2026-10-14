@@ -1,107 +1,107 @@
 <script>
-    import comStefania from "$lib/assets/committee/2025-2026/stefania.webp";
-    import comDamian from "$lib/assets/committee/2025-2026/damian.jpg";
-    import comTeodora from "$lib/assets/committee/2025-2026/teodora.png";
+	import comStefania from '#lib/assets/committee/2025-2026/stefania.webp';
+	import comDamian from '#lib/assets/committee/2025-2026/damian.jpg';
+	import comTeodora from '#lib/assets/committee/2025-2026/teodora.png';
 
-    import comMaria from "$lib/assets/committee/2024-2025/maria.jpg";
-    import comRoxi from "$lib/assets/committee/2024-2025/roxi.webp";
-    import comTraian from "$lib/assets/committee/2024-2025/traian.webp";
-    import comDomi from "$lib/assets/committee/2024-2025/domi.webp";
-    import comElena from "$lib/assets/committee/2024-2025/elena.webp";
-    import comStefan from "$lib/assets/committee/2024-2025/stefan.webp";
-	
-    import CommitteeCard from "./CommitteeCard.svelte";
+	import comMaria from '#lib/assets/committee/2024-2025/maria.jpg';
+	import comRoxi from '#lib/assets/committee/2024-2025/roxi.webp';
+	import comTraian from '#lib/assets/committee/2024-2025/traian.webp';
+	import comDomi from '#lib/assets/committee/2024-2025/domi.webp';
+	import comElena from '#lib/assets/committee/2024-2025/elena.webp';
+	import comStefan from '#lib/assets/committee/2024-2025/stefan.webp';
 
-    import DividerText from "$lib/components/DividerText.svelte";
+	import CommitteeCard from './CommitteeCard.svelte';
+
+	import DividerText from '#lib/components/DividerText.svelte';
 </script>
 
-<div class="p-4 pb-16 pt-16 mx-auto max-w-screen-xl">
-    <div class="py-8 sm:py-16 flex flex-col items-center justify-center text-center">
-        <p class="text-lg font-bold text-gray-700">Meet this year's</p>
-        <h1 class="text-4xl font-bold">OxRoSoc Committee</h1>
-    </div>
-    <div class="gallery-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8">
-        <CommitteeCard
-            name="Ștefania Luca"
-            position="President"
-            image={comStefania}
-            instagram="stefan.snakevine"
-            course="Biology"
-            college="DPhil"
-        />
-        <CommitteeCard
-            name="Damian Pădure"
-            position="Secretary"
-            image={comDamian}
-            instagram="damian.padure"
-            course="Maths & CompSci"
-            college="Worcester"
-        />
-        <CommitteeCard
-            name="Teodora Marinescu"
-            position="Treasurer"
-            image={comTeodora}
-            instagram="teodora_marinescu_"
-            course="Maths"
-            college="Licoln"
-        />
-    </div>
+<div class="p-4 pb-16 pt-16 mx-auto max-w-7xl">
+	<div class="py-8 sm:py-16 flex flex-col items-center justify-center text-center">
+		<p class="text-lg font-bold text-gray-700">Meet this year's</p>
+		<h1 class="text-4xl font-bold">OxRoSoc Committee</h1>
+	</div>
+	<div class="gallery-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8">
+		<CommitteeCard
+			name="Ștefania Luca"
+			position="President"
+			image={comStefania}
+			instagram="stefan.snakevine"
+			course="Biology"
+			college="DPhil"
+		/>
+		<CommitteeCard
+			name="Damian Pădure"
+			position="Secretary"
+			image={comDamian}
+			instagram="damian.padure"
+			course="Maths & CompSci"
+			college="Worcester"
+		/>
+		<CommitteeCard
+			name="Teodora Marinescu"
+			position="Treasurer"
+			image={comTeodora}
+			instagram="teodora_marinescu_"
+			course="Maths"
+			college="Licoln"
+		/>
+	</div>
 </div>
-<DividerText>
-    Previous Committees
-</DividerText>
-<div class="p-4 pb-16 sm:pt-20 mx-auto max-w-screen-xl">
-    <div class="pb-8 sm:pb-16 flex flex-col items-center justify-center text-center">
-        <h3 class="text-2xl font-bold">2024 &ndash; 2025 <span class="hidden">OxRoSoc</span> Committee</h3>
-    </div>
-    <div class="gallery-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 gap-y-8">
-        <CommitteeCard
-            name="Maria Sticlea"
-            position="President"
-            image={comMaria}
-            instagram="maria_lucia_345"
-            course="PPE"
-            college="New"
-        />
-        <CommitteeCard
-            name="Roxana Maria Rusu (Roxi)"
-            position="Vice President"
-            image={comRoxi}
-            instagram="roxirusumariaa"
-            course="PPE"
-            college="Anne's"
-        />
-        <CommitteeCard
-            name="Traian Rareș Tuș"
-            position="Secretary"
-            image={comTraian}
-            instagram="traianrarestus"
-            course="Physics"
-            college="Hertford"
-        />
-        <CommitteeCard
-            name="Dominic Satnoianu (Domi)"
-            position="Treasurer"
-            image={comDomi}
-            instagram="dominiccss"
-            course="Computer Science"
-            college="Catz"
-        />
-        <CommitteeCard
-            name="Elena Ionescu"
-            position="Welfare Rep"
-            image={comElena}
-            instagram="e13na.i"
-            course="English"
-            college="Catz"
-        />
-        <CommitteeCard
-            name="Ștefan Domunco"
-            position="Events Officer"
-            image={comStefan}
-            instagram="stefandomunco"
-            course="Computer Science"
-            college="Catz"
-        />
-    </div>
+<DividerText>Previous Committees</DividerText>
+<div class="p-4 pb-16 sm:pt-20 mx-auto max-w-7xl">
+	<div class="pb-8 sm:pb-16 flex flex-col items-center justify-center text-center">
+		<h3 class="text-2xl font-bold">
+			2024 &ndash; 2025 <span class="hidden">OxRoSoc</span> Committee
+		</h3>
+	</div>
+	<div class="gallery-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 gap-y-8">
+		<CommitteeCard
+			name="Maria Sticlea"
+			position="President"
+			image={comMaria}
+			instagram="maria_lucia_345"
+			course="PPE"
+			college="New"
+		/>
+		<CommitteeCard
+			name="Roxana Maria Rusu (Roxi)"
+			position="Vice President"
+			image={comRoxi}
+			instagram="roxirusumariaa"
+			course="PPE"
+			college="Anne's"
+		/>
+		<CommitteeCard
+			name="Traian Rareș Tuș"
+			position="Secretary"
+			image={comTraian}
+			instagram="traianrarestus"
+			course="Physics"
+			college="Hertford"
+		/>
+		<CommitteeCard
+			name="Dominic Satnoianu (Domi)"
+			position="Treasurer"
+			image={comDomi}
+			instagram="dominiccss"
+			course="Computer Science"
+			college="Catz"
+		/>
+		<CommitteeCard
+			name="Elena Ionescu"
+			position="Welfare Rep"
+			image={comElena}
+			instagram="e13na.i"
+			course="English"
+			college="Catz"
+		/>
+		<CommitteeCard
+			name="Ștefan Domunco"
+			position="Events Officer"
+			image={comStefan}
+			instagram="stefandomunco"
+			course="Computer Science"
+			college="Catz"
+		/>
+	</div>
 </div>
