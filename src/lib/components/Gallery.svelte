@@ -1,7 +1,4 @@
 <script>
-	import emptyImage from '#lib/assets/empty.png';
-	import '#lib/utils/lazy-loading.js';
-
 	/** @typedef {{ src: string; alt: string }} Image */
 	/** @type {Image[]} */
 	export let images = [];
@@ -29,8 +26,9 @@
 			on:click={() => openLightbox(image)}
 		>
 			<img
-				src={emptyImage}
-				data-src={image.src}
+				src={image.src}
+				loading="lazy"
+				decoding="async"
 				alt={image.alt}
 				class="w-full h-auto aspect-[4/5] object-cover rounded-lg"
 			/>

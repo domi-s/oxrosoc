@@ -1,6 +1,4 @@
 <script>
-	import emptyImage from '#lib/assets/empty.png';
-
 	import oxrosocEvent1 from '#lib/assets/oxrosoc-event-1.jpg';
 </script>
 
@@ -10,8 +8,9 @@
 			<div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
 				<img
 					alt="OxRoSoc Formal Event"
-					src={emptyImage}
-					data-src={oxrosocEvent1}
+					src={oxrosocEvent1}
+					loading="lazy"
+					decoding="async"
 					class="absolute inset-0 h-full w-full object-cover"
 				/>
 			</div>
