@@ -13,7 +13,12 @@
 		<p>{position}</p>
 		<h3 class="text-xl font-bold">{name}</h3>
 		<p class="text-gray-700 text-sm">
-			{course} at {college} &middot;
+			{#if college != "DPhil"}
+				{course} at {college}
+			{:else}
+				{course} {college}
+			{/if}
+			&middot;
 			<a href="https://www.instagram.com/{instagram}" target="_blank" class="underline">Instagram</a
 			>
 		</p>

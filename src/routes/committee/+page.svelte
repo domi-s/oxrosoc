@@ -48,13 +48,44 @@
 	</div>
 </div>
 <DividerText>Previous Committees</DividerText>
-<div class="p-4 pb-16 sm:pt-20 mx-auto max-w-7xl">
-	<div class="pb-8 sm:pb-16 flex flex-col items-center justify-center text-center">
+<div class="p-4 mx-auto max-w-7xl">
+	<div class="my-8 sm:my-16 flex flex-col items-center justify-center text-center">
+		<h3 class="text-2xl font-bold">
+			2025 &ndash; 2026 <span class="hidden">OxRoSoc</span> Committee
+		</h3>
+	</div>
+	<div class="gallery-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8">
+		<CommitteeCard
+			name="Ștefania Luca"
+			position="President"
+			image={comStefania}
+			instagram="stefan.snakevine"
+			course="Biology"
+			college="DPhil"
+		/>
+		<CommitteeCard
+			name="Damian Pădure"
+			position="Secretary"
+			image={comDamian}
+			instagram="damian.padure"
+			course="Maths & CompSci"
+			college="Worcester"
+		/>
+		<CommitteeCard
+			name="Teodora Marinescu"
+			position="Treasurer"
+			image={comTeodora}
+			instagram="teodora_marinescu_"
+			course="Maths"
+			college="Licoln"
+		/>
+	</div>
+	<div class="my-8 sm:my-16 flex flex-col items-center justify-center text-center">
 		<h3 class="text-2xl font-bold">
 			2024 &ndash; 2025 <span class="hidden">OxRoSoc</span> Committee
 		</h3>
 	</div>
-	<div class="gallery-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 gap-y-8">
+	<div class="gallery-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 gap-y-8">
 		<CommitteeCard
 			name="Maria Sticlea"
 			position="President"
