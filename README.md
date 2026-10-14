@@ -26,24 +26,28 @@ The website is GDPR Compliant according to Cookiebot, using self-hosted resource
 To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/domi-s/oxrosoc.git
-    ```
+
+   ```bash
+   git clone https://github.com/domi-s/oxrosoc.git
+   ```
 
 2. **Navigate to the project directory**:
-    ```bash
-    cd oxrosoc
-    ```
+
+   ```bash
+   cd oxrosoc
+   ```
 
 3. **Install dependencies**:
-    ```bash
-    npm install
-    ```
+
+   ```bash
+   npm install
+   ```
 
 4. **Run the development server**:
-    ```bash
-    npm run dev
-    ```
+
+   ```bash
+   npm run dev
+   ```
 
 5. Visit `http://localhost:5173` to view the website in your browser.
 
