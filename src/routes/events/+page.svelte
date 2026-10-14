@@ -46,16 +46,54 @@
 	import ht2026_10 from '#lib/assets/termcards/ht2026/10.jpg';
 
 	import tt2026_1 from '#lib/assets/termcards/tt2026/1.jpg';
+	import tt2026_2 from '#lib/assets/termcards/tt2026/2.jpg';
+	import tt2026_3 from '#lib/assets/termcards/tt2026/3.jpg';
+	import tt2026_4 from '#lib/assets/termcards/tt2026/4.jpg';
+	import tt2026_5 from '#lib/assets/termcards/tt2026/5.jpg';
+
+	import mt2026_1 from '#lib/assets/termcards/mt2026/1.jpg';
+	import mt2026_2 from '#lib/assets/termcards/mt2026/2.jpg';
 </script>
 
 <div class="p-4 pt-16 mx-auto max-w-screen-xl">
 	<div class="py-8">
-		<SectionHeader title="Trinity Term 2026" subtitle="Termcard" isNew={true} />
+		<SectionHeader title="Michaelmas Term 2026" subtitle="Termcard" isNew={true} />
+		<Gallery
+			images={[
+				{
+					src: mt2026_1,
+					alt: 'MT2026 Termcard'
+				},
+				{
+					src: mt2026_2,
+					alt: 'Oxford tour and Wine & Cheese Social'
+				},
+			]}
+		/>
+	</div>
+	<div class="py-8">
+		<SectionHeader title="Trinity Term 2026" subtitle="Termcard" />
 		<Gallery
 			images={[
 				{
 					src: tt2026_1,
 					alt: 'Welcome Back Drinks'
+				},
+				{
+					src: tt2026_2,
+					alt: 'OxRoSoc Elections Announcement'
+				},
+				{
+					src: tt2026_3,
+					alt: 'Conversations and Q&A with Irina Georgescu'
+				},
+				{
+					src: tt2026_4,
+					alt: 'Summer Drinks and Voting'
+				},
+				{
+					src: tt2026_5,
+					alt: 'European Party'
 				}
 			]}
 		/>
