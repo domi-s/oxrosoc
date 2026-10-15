@@ -1,3 +1,7 @@
+<p align="center">
+   <img src="src/lib/assets/oxrosoc-logo-png-white-transparent-outline-256.png" alt="OxRoSoc Logo" width="72">
+</p>
+
 # Oxford Romanian Society Website
 
 This repository hosts the official website for the Oxford Romanian Society (OxRoSoc). The website is designed to provide information about the society, promote its events, and serve as a hub for the Romanian community at Oxford. It can also be used as a template for other student societies or organizations looking for a simple, customizable website solution.
